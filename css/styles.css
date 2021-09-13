@@ -4,9 +4,45 @@
 html {
     font-size: 62.5%;
 }
-#name {
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+/* Name / Left side of navbar.*/
+.name {
     font-size: 3rem;
     font-family: "Charm", serif;
     font-weight: 550;
-    padding: 10px 0 10px 10px;
+}
+
+/* Links / Right side of navbar.*/
+.right-side {
+    display: flex;
+}
+
+.nav-wrapper > .right-side > div {
+    margin-right: 20px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+.nav-link-wrapper a {
+    color: grey;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid black;
+}
+.nav-link-wrappera :hover {
+    color: black;
 }
