@@ -31,7 +31,6 @@ html {
     text-decoration: none;
 }
 .nav-link-wrapper {
-    height: 22px;
     border-bottom: 1px solid transparent;
     transition: border-bottom 0.5s;
 }
@@ -43,6 +42,6 @@ html {
 .nav-link-wrapper:hover {
     border-bottom: 1px solid black;
 }
-.nav-link-wrappera :hover {
+.nav-link-wrapper a:hover {
     color: black;
 }
