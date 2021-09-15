@@ -4,26 +4,30 @@
 html {
     font-size: 62.5%;
 }
-
+body {
+    margin: 0;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+/* Navbar */
 .nav-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
 }
-
-/* Name / Left side of navbar.*/
+/* Name: Left side of navbar.*/
 .name {
     font-size: 3rem;
     font-family: "Charm", serif;
     font-weight: 550;
 }
-
-/* Links / Right side of navbar.*/
+/* Links: Right side of navbar.*/
 .right-side {
     display: flex;
 }
-
 .nav-wrapper > .right-side > div {
     margin-right: 20px;
     font-size: 1.5rem;
@@ -44,4 +48,15 @@ html {
 }
 .nav-link-wrapper a:hover {
     color: black;
+}
+/* Projects Section */
+.project-img-background {
+background-image: url(images/paint.png);
+}
+.portfolio-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.project-wrapper {
+    position: relative;
 }
