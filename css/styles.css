@@ -24,6 +24,10 @@ body {
     font-family: "Charm", serif;
     font-weight: 550;
 }
+.name a {
+    text-decoration: none;
+    color: black;
+}
 /* Links: Right side of navbar.*/
 .right-side {
     display: flex;
@@ -96,4 +100,27 @@ body {
 .img-darken {
     transition: 1s;
     filter: brightness(10%);
+}
+/* Bio Page */
+.two-column-wrapper {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.profile-image-wrapper img {
+    width: 150px;
+    margin: 50px 0px 0px 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+.profile-content-wrapper {
+    margin: 50px 50px 50px 0;
+}
+.bio-title {
+    font-family: 'Indie Flower', cursive;
+    font-size: 2.5rem;
+}
+.bio-paragraph {
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5rem;
 }
