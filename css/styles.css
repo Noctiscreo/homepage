@@ -50,13 +50,50 @@ body {
     color: black;
 }
 /* Projects Section */
-.project-img-background {
-background-image: url(images/paint.png);
-}
-.portfolio-wrapper {
+.portfolio-items-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 100px;
 }
-.project-wrapper {
+.portfolio-item-wrapper {
     position: relative;
+    margin: 5px;
+}
+.portfolio-img-background {
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.img-text-wrapper {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.logo-wrapper img {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+
+.img-text-wrapper .subtitle {
+   transition: 1s;
+   font-weight: 400;
+   font-size: 2rem;
+   color: transparent;
+}
+.img-text-wrapper:hover .subtitle {
+    font-weight: 400;
+    color: white;
+}
+.img-darken {
+    transition: 1s;
+    filter: brightness(10%);
 }
