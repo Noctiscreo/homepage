@@ -101,6 +101,12 @@ body {
     transition: 1s;
     filter: brightness(10%);
 }
+.active-nav-link{
+    border-bottom: 1px solid black;
+}
+.active-nav-link a {
+    color: black !important;
+}
 /* Bio Page */
 .two-column-wrapper {
     display: grid;
