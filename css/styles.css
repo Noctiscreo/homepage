@@ -86,7 +86,6 @@ body {
     width: 50%;
     margin-bottom: 20px;
   }
-
 .img-text-wrapper .subtitle {
    transition: 1s;
    font-weight: 400;
@@ -129,4 +128,20 @@ body {
 .bio-paragraph {
     font-family: 'Indie Flower', cursive;
     font-size: 1.5rem;
+}
+/* Footer */
+.footer-image {
+    text-align: center;
+    margin-top: 150px;
+}
+.footer-image img {
+    width: 10%;
+}
+.footer {
+    margin: 10px 0 50px 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.footer a {
+    text-decoration: none;
 }
