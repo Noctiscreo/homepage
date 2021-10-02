@@ -123,10 +123,10 @@ body {
     text-decoration: none;
 }
 /* Bio Page */
-.bio-content-wrapper {
+.bio-content-wrapper-1 {
     margin: 50px 50px 50px 50px;
 }
-/*Bio*/
+/*Background*/
 .bio-image img {
     float: left;
     width: 150px;
@@ -143,8 +143,6 @@ body {
     font-family: 'Indie Flower', cursive;
     font-size: 1.5rem;
 }
-
-/*Work History*/
 .work-history-image img {
     float: right;
     width: 200px;
@@ -155,6 +153,9 @@ body {
 }
 
 /*Fun Stuff*/
+.bio-content-wrapper-2 {
+    margin: 50px 50px 0px 50px;
+}
 .fun-stuff-image img {
     float: left;
     width: 150px;
