@@ -57,7 +57,7 @@ body {
 .portfolio-items-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 .portfolio-item-wrapper {
     position: relative;
@@ -106,29 +106,6 @@ body {
 .active-nav-link a {
     color: black !important;
 }
-/* Bio Page */
-.two-column-wrapper {
-    display: grid;
-    grid-template-columns: 20% 80%;
-}
-.profile-image-wrapper img {
-    width: 150px;
-    margin: 50px 0px 0px 50px;
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 5px;
-}
-.profile-content-wrapper {
-    margin: 50px 50px 50px 0;
-}
-.bio-title {
-    font-family: 'Indie Flower', cursive;
-    font-size: 2.5rem;
-}
-.bio-paragraph {
-    font-family: 'Indie Flower', cursive;
-    font-size: 1.5rem;
-}
 /* Footer */
 .footer-image {
     text-align: center;
@@ -145,3 +122,49 @@ body {
 .footer a {
     text-decoration: none;
 }
+/* Bio Page */
+
+/*Basic Bio*/
+.bio-page-wrapper {
+    display: flow-root;
+}
+.bio-content-wrapper {
+    margin: 50px 50px 50px 50px;
+}
+.bio-image img {
+    float: left;
+    width: 150px;
+    margin: 50px 20px 0px 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+.bio-title {
+    font-family: 'Indie Flower', cursive;
+    font-size: 2.5rem;
+}
+.bio-paragraph {
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5rem;
+}
+
+/*Work History*/
+.work-history-image img {
+    float: right;
+    width: 150px;
+    margin: 0px 50px 0px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/*Fun Stuff*/
+.fun-stuff-image img {
+    float: left;
+    width: 150px;
+    margin: 0px 20px 0px 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
