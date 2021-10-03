@@ -160,4 +160,29 @@ body {
     margin: 0px 30px 0px 50px;
     padding: 5px;
 }
-
+/*Contact Page*/
+.contact-text-container {
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 200px;
+}
+.contact-box {
+    display: inline-block;
+}
+.contact-images-container {
+    margin: 100px auto 400px auto;
+}
+.contact-images-container img {
+    height: 50px;
+    margin: 10px;
+    text-align: center;
+}
+.contact-icon-text {
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.contact-image {
+    display: inline-block;
+}
